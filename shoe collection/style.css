@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(212, 197, 197);
+    position: relative;
+}
+#nav{
+    height: 90px;
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav img{
+    height: 30px;
+    margin-right: 200px;
+
+}
+#nav-part1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#nav-part1 h4{
+    margin-right: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav-part2 i{
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+} 
+#left{
+    width: 30%;
+    height: 100%;
+    padding: 70px 50px;
+}  
+#left h5{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: rgb(238, 149, 149);
+} 
+#left h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    
+
+}
+#left p{
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 30px
+
+}
+#left button{
+padding: 12px 20px;
+background-color: black;
+color: whitesmoke;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 600;
+border-radius: 50px;
+border-top-left-radius: 0px;
+
+}
+#left button:hover{
+    transition: 1.25s;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+#right{
+width: 70%;
+height: 100%;
+position: relative;
+padding: 150px;
+white-space: nowrap;
+overflow-x: auto;
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    height: 250px;
+    width: 230px;
+    background-color: rgba(193, 186, 186, 0.061);
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.elem img{
+    height: 50%;
+    width: 90%;
+    padding: 10px 10px;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 151, 151);
+    padding: 6px 25px;
+    border-radius: 12px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    background-color: rgb(61, 53, 53);
+    padding: 8px 18px;
+    border-radius: 12px;
+    color: white;
+}
+.elem{
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.elem img{
+    height: 50%;
+    width: 90%;
+    padding: 10px 10px;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 151, 151);
+    padding: 6px 25px;
+    border-radius: 12px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    background-color: rgb(61, 53, 53);
+    padding: 8px 18px;
+    border-radius: 12px;
+    color: white;
+}
+.elem{
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.elem img{
+    height: 50%;
+    width: 90%;
+    padding: 10px 10px;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 151, 151);
+    padding: 6px 25px;
+    border-radius: 12px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    background-color: rgb(61, 53, 53);
+    padding: 8px 18px;
+    border-radius: 12px;
+    color: white;
+}
+.elem{
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.elem img{
+    height: 50%;
+    width: 90%;
+    padding: 10px 10px;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 151, 151);
+    padding: 6px 25px;
+    border-radius: 12px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    background-color: rgb(61, 53, 53);
+    padding: 8px 18px;
+    border-radius: 12px;
+    color: white;
+}
+.elem{
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.elem img{
+    height: 50%;
+    width: 90%;
+    padding: 10px 10px;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 151, 151);
+    padding: 6px 25px;
+    border-radius: 12px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 14%;
+    right: 0;
+    background-color: rgb(61, 53, 53);
+    padding: 8px 18px;
+    border-radius: 12px;
+    color: white;
+}
